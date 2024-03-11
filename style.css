@@ -3,19 +3,30 @@
     padding: 0;
 }
 .navbar{
+    background-color: rebeccapurple
+}
+.nav-area{
     display: flex;
     justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+
 }
 .nav-style{
     color: rgb(28, 224, 28);
-    text-shadow: rgb(rgb(230, 13, 13), rgb(25, 224, 25), rgb(25, 25, 233));
 }
 .navigation{
     display: flex;
     align-items: center;
 }
 .nav-title{
-    margin-left: 10px;
+    margin-left: 20px;
     justify-content: space-between;
     list-style: none;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+
+   
+
 }
