@@ -11,5 +11,5 @@ console.log(items)
 
 var numArray = [10,20,30,40,50,60];
 
-var toTal= numArray.unshift(2,4);
- console.log(toTal);
+var toTal= numArray.push(66);
+ console.log('Number', toTal);
